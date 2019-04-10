@@ -74,7 +74,7 @@
     <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files\fftw3</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files (x86)\fftw3</IncludePath>
+    <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files;C:\Program Files (x86)\fftw3</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(SolutionDir);$(IncludePath);C:\Program Files\libsndfile\include;C:\Program Files\muparserx_v3_0_1\parser;C:\Program Files\fftw3</IncludePath>

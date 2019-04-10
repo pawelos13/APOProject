@@ -79,7 +79,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SolutionDir);C:\Program Files\tclap-1.2.1\include;C:\Program Files\libsndfile\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir);C:\Program Files\tclap-1.2.1\include;C:\Program Files\libsndfile\include;C:\Program Files\tclap-1.2.1;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files (x86)\libsndfile\lib;C:\Program Files\muparserx_v3_0_1\lib;C:\Program Files (x86)\fftw3;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
