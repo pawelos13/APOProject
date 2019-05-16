@@ -6,9 +6,10 @@ The instalator should automatically create the proper conditions for APO to work
 
 Testing: manual, except "Benchmark", which automatically will process a sample sine sweep with acoustic frequencies.
 0. Use "Benchmark.exe" to test whether .dll library of APO is built properly.
-1. Try to use values for all variables/effects available that are outside the safe zone or can be dangerous for APO work and/or for headphones/speakers to see the behavior
-and test whether the APO is preventing this from damage.
-2. Try to mix all possible effects and its extreme values in order to spot any undesirable distortions and/or significant delays in playing sound.
+1. Try to use values for all variables/effects available that are outside the safe zone or can be dangerous for APO work 
+and/or for headphones/speakers to see the behavior and test whether the APO is preventing this from damage.
+2. Try to mix all possible effects and its extreme values in order to spot any undesirable distortions 
+and/or significant delays in playing sound.
 3. Try to use the APO normally for some time to eventually spot some bugs in the natural way of using.
 4. Try to use multiple applications creating audio stream to see whether the APO can handle it or not.
 
