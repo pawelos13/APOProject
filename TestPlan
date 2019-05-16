@@ -2,7 +2,7 @@ Test plan - APOProject:
 
 Setup and requirements:
 APO will not work without proper register keys and audio device configuration. Without this don't even try to test anything.
-The future instalator should automatically create the proper conditions for APO to work.
+The instalator should automatically create the proper conditions for APO to work.
 
 Testing: manual, except "Benchmark", which automatically will process a sample sine sweep with acoustic frequencies.
 0. Use "Benchmark.exe" to test whether .dll library of APO is built properly.
