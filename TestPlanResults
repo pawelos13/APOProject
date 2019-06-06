@@ -5,14 +5,14 @@ APO will not work without proper register keys and audio device configuration. W
 The instalator should automatically create the proper conditions for APO to work.
 
 Testing: manual, except "Benchmark", which automatically will process a sample sine sweep with acoustic frequencies.
-0. Try to use installer for different processor architecture (i.e. 32-bit installer for 64-bit processor).
+0. Use installer for different processor architecture (i.e. 32-bit installer for 64-bit processor).
 Result - alert and aborting installation - passed.
 1. Use "Benchmark.exe" to test whether .dll library of APO is built and is processing audio stream properly. 
 Result - lines with parameters about test - passed.
-2. Try to use different values for effects that are outside the safe zone or can be dangerous for APO work 
+2. Use different values for effects that are outside the safe zone or can be dangerous for APO work 
 and/or for headphones/speakers to see the behavior and test whether the APO is preventing this from damage. 
 Result - APO works fine in every case, but there no protection from high gain levels (only red colour in graph) - half-passed.
-3. Try to use multiple applications creating audio stream to see whether the APO can handle it or not.
+3. Use multiple applications creating audio stream to see whether the APO can handle it or not.
 Result - using different software audio sources (audio player, web browser, games, Windows sounds) revealed no strange behaviour - passed.
-4. Try to use the APO normally for some time to eventually spot some bugs/issues/crashes in the natural way of using.
+4. Use the APO normally for some time to eventually spot some bugs/issues/crashes in the natural way of using.
 Result - after three weeks of normal use (different audio sources/output devices/APO settings) APO caused no troubles at all - passed.
